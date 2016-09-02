@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorwrite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@mipmap/biaotilan">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/searchlist_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchlist_tv_et"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchlist_tv_et2"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchlist_tv_et3"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchlist_tv_num"
+            android:text="测试"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <refresh.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchlist_lv"
+        android:layout_marginLeft="10dp"
+        android:listSelector="@color/colorwriteblue">
+
+
+    </ListView>
+
+    </refresh.RefreshableView>
+
+</LinearLayout>

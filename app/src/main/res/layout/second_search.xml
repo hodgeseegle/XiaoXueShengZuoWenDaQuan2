@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg2"
+    >
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@mipmap/dbiaoti"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:gravity="center"
+            android:background="@mipmap/sousuokuang"
+            android:id="@+id/search_et"
+            android:layout_gravity="center"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:hint="请输入...."
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/search_search"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/sousuo"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+
+        android:id="@+id/search_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@drawable/nianji"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        />
+
+    <ImageView
+        android:id="@+id/search_type"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:background="@drawable/anleibie"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
